@@ -1,11 +1,10 @@
-interface ButtonProps {
+interface Props {
   text: string;
 }
-
-export const Button = ({ text }: ButtonProps) => {
+export default function Button({ text }: Props) {
   return (
-    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    <button className="mt-8 bg-blue-800 text-white text-lg px-8 py-3">
       {text}
     </button>
   );
-};
+}
