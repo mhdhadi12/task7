@@ -1,7 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import { Footer } from "../components/footer";
-import React from "react";
 
 test("renders footer with social media links and credits", () => {
   render(<Footer />);
